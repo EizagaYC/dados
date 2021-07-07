@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lanzar dados | Home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body style="background: #9e9e9e;">
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-md-12 bg-dark py-3 mb-3 text-white">
+          <h3>Lanzamiento de dados <small class="text-center text-white">by: Yoangel Eizaga</small></h3>
+          <div id="btn-list">
+            <div class="container-fluid text-center d-none d-sm-inline-block">
+              <button class="btn btn-success" onclick="shake()"><i class="fas fa-dice"></i> Lanzar</button>
+              <button class="btn btn-info clear d-none" onclick="clearScream()" id="btnClear"><i class="fas fa-undo"></i> Limpiar</button>
+            </div>
+            <a class="btn-lanzar d-sm-none" onclick="shake()">
+              <i class="fas fa-dice"></i>
+            </a>
+            <a class="btn-clear d-sm-none clear d-none" onclick="clearScream()" id="btnClear">
+              <i class="fas fa-undo"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="mb-3 col-md-12 col-sm-12">
+          <div class="row d-flex justify-content-center" id="ShowDados"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

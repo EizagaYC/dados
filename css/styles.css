@@ -1,0 +1,43 @@
+.btn-lanzar, .btn-clear{
+	z-index: 1000;
+	border: none;
+	border-radius: 50%;
+	position: fixed;
+	text-align:center;
+	line-height:46px;
+	box-shadow: 5px 5px 35px rgba(122,130,135,0.50);
+}
+
+.btn-lanzar{
+	width:6rem;
+	height:6rem;
+	bottom: 30px;
+	right: 30px;
+	background: #28a745;
+}
+
+.btn-clear{
+	width:4rem;
+	height:4rem;
+	bottom: 140px;
+	right: 30px;
+	background: #03a9f4;
+}
+
+.btn-lanzar i, .btn-clear i {
+	font-weight: 800;
+	color: #fff;
+}
+
+.btn-lanzar i{
+	font-size: 40px;
+    padding-top: 28px;
+}
+
+.btn-clear i{
+	font-size: 20px;
+    padding-top: 22px;
+}
+
+.btn-lanzar:focus,.btn-lanzar:hover, .btn-clear:focus,.btn-clear:hover{ background:#343a40; cursor: pointer; }
+.btn-lanzar i:hover, .btn-clear i:hover{ color:#fff; }
